@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: block;
+    width: 30%;
+    margin: 50px auto;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"], input[type="email"] {
+    width: 95%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00c503;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
